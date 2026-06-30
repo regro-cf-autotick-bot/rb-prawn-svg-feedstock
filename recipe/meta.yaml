@@ -1,5 +1,5 @@
 {% set name = "prawn-svg" %}
-{% set version = "0.40.0" %}
+{% set version = "0.40.3" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-    sha256: 27ef7cdcde2959d0f23ac1b6d4c71be1f9b1041a0baa37ac12fb16e811cb5ffb
+    sha256: 26237d3a7268143b5ffc6c1354ab93d0a4b81366573c749b6316e6f6f7733c0c
 
 build:
   noarch: generic
